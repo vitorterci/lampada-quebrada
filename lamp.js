@@ -8,18 +8,18 @@ function lampQuebrada(){
 
 function ligarLamp(){
     if(!lampQuebrada()){
-    $lampada.src='img/lampada-acesa.jpg'
+    $lampada.src='lampada-acesa.jpg'
     }
 }
 
 function desligarLamp(){
     if(!lampQuebrada()){
-        $lampada.src='img/lampada-apagada.jpg'
+        $lampada.src='lampada-apagada.jpg'
         }
 }
  
 function quebrarLamp(){
-   $lampada.src='img/lampada-quebrada.jpg'
+   $lampada.src='lampada-quebrada.jpg'
         }
 
 
